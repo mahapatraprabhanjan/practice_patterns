@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  generic_repo_consumption:
+    image: ${DOCKER_REGISTRY-}genericrepoconsumption
+    build:
+      context: .
+      dockerfile: Generic_Repo_Consumption/Dockerfile

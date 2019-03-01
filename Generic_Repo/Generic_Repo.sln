@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic_Repo", "Generic_Repo\Generic_Repo.csproj", "{6D45C7B7-1442-4D5E-84D7-E0399B5F8406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic_Repo_Consumption", "Generic_Repo_Consumption\Generic_Repo_Consumption.csproj", "{DAFDA0E5-C597-4AED-B671-E667ADD815AA}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5064E76C-B7AA-465F-98A8-8182393B3AC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D45C7B7-1442-4D5E-84D7-E0399B5F8406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D45C7B7-1442-4D5E-84D7-E0399B5F8406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D45C7B7-1442-4D5E-84D7-E0399B5F8406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D45C7B7-1442-4D5E-84D7-E0399B5F8406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFDA0E5-C597-4AED-B671-E667ADD815AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFDA0E5-C597-4AED-B671-E667ADD815AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFDA0E5-C597-4AED-B671-E667ADD815AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFDA0E5-C597-4AED-B671-E667ADD815AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5064E76C-B7AA-465F-98A8-8182393B3AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5064E76C-B7AA-465F-98A8-8182393B3AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5064E76C-B7AA-465F-98A8-8182393B3AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5064E76C-B7AA-465F-98A8-8182393B3AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8128892D-C4B0-45BF-829E-634ABC3998EA}
+	EndGlobalSection
+EndGlobal
